@@ -199,7 +199,7 @@ function requestData(api_key, user, page){
     user:user,
     api_key:api_key,
     limit:200,
-    page: page || 0
+    page: page || 1
   }
 }
 
