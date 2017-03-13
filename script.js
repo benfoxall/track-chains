@@ -180,7 +180,7 @@ function simplify(track){
 // make a request to lastFM
 function lastFM(data, callback){
   return reqwest({
-    url:"http://ws.audioscrobbler.com/2.0/",
+    url:"https://ws.audioscrobbler.com/2.0/",
     data: data,
     type: 'xml',
     success: function(data){
